@@ -1,0 +1,75 @@
+
+
+body{
+	font: 0.9em Tahoma, Verdana, Arial;
+	background-image: url("http://i.imgur.com/Jn2nwtn.jpg");
+	/*background-image: url("http://i.imgur.com/I3cJGqG.jpg");*/
+	background-color: BurlyWood ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*background-color: #36dcaf;*/
+
+}
+
+header{
+	max-width: 200px;
+	max-height: 80px;
+}
+
+#logo{
+	border: dashed #5c929c 2px; 
+	max-height: 80px;
+}
+
+#mainContainer{
+	/*border: solid #83d1d7 5px;*/
+	background-color:rgba(196,216,240,.7);
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	width: 40%;
+	padding: 25px;
+	color: #886955;
+	
+
+
+}
+
+#menu{
+	/*border: solid #5c929c 2px;*/
+	width: 10%;
+	float: left;
+	
+
+
+
+}
+
+#content{
+
+}
+
+ul{
+	display: inline-block;
+	border: solid #5c929c 2px;
+	padding: 15px;
+	text-align: left;
+	background-color:rgba(196,216,240,.7); 
+
+}
+
+li{
+	display: inline-block;
+	padding: 1em;
+	
+
+}
+
+a{
+	font-size: 1.1em;
+	text-decoration: none;
+	color: #886955;
+
+}
