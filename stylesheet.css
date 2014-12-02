@@ -4,7 +4,7 @@ body{
 	font: 0.9em Tahoma, Verdana, Arial;
 	background-image: url("http://i.imgur.com/Jn2nwtn.jpg");
 	/*background-image: url("http://i.imgur.com/I3cJGqG.jpg");*/
-	background-color: BurlyWood ;
+	background-color: BurlyWood;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -24,42 +24,47 @@ header{
 
 #mainContainer{
 	/*border: solid #83d1d7 5px;*/
-	font: Oliver;
 	background-color:rgba(196,216,240,.7);
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 1em;
+	margin-top: 15px;
 	width: 40%;
+	/*height: 500px;*/
 	padding: 25px;
 	color: maroon; /*#886955*/
 }
 
-#twitterFeed{
-	
+#twitterFeed{ 
+	margin-top: 15px;
+	width: 15%;
+	float: right;
+
 }
 
 #menu{
 	/*border: solid #5c929c 2px;*/
 	width: 10%;
 	float: left;
+	margin-left: 30px;
 }
 
 #content{
 
 }
 
-ul{
+#ulMenu{
+	background-color:rgba(196,216,240,.7); 
 	display: inline-block;
 	border: solid #5c929c 2px;
 	padding: 15px;
 	text-align: center;
-	background-color:rgba(196,216,240,.7); 
+
 
 }
 
-li{
+.liMenu{
 	display: inline-block;
-	padding: 1em;
+	padding: 12px;
 	
 
 }
@@ -73,14 +78,24 @@ a{
 
 footer{
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	background-color: #caf1ff;
 	width: 100%;
+	max-height: 100px;
+	left: 0;
+	bottom: 1;
 	color: maroon;
 }
 
+#ulFooter{
+	list-style-type: none;
+	text-align: center;
 
+}
 
-#pageInfo{
+.liFooter{
+	display: inline-block;
+}
+
+#copyright{
 	text-align: center;
 }
