@@ -24,27 +24,24 @@ header{
 
 #mainContainer{
 	/*border: solid #83d1d7 5px;*/
+	font: Oliver;
 	background-color:rgba(196,216,240,.7);
-	
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1em;
 	width: 40%;
 	padding: 25px;
-	color: #886955;
+	color: maroon; /*#886955*/
+}
+
+#twitterFeed{
 	
-
-
 }
 
 #menu{
 	/*border: solid #5c929c 2px;*/
 	width: 10%;
 	float: left;
-	
-
-
-
 }
 
 #content{
@@ -55,7 +52,7 @@ ul{
 	display: inline-block;
 	border: solid #5c929c 2px;
 	padding: 15px;
-	text-align: left;
+	text-align: center;
 	background-color:rgba(196,216,240,.7); 
 
 }
@@ -72,4 +69,18 @@ a{
 	text-decoration: none;
 	color: #886955;
 
+}
+
+footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: maroon;
+}
+
+
+
+#pageInfo{
+	text-align: center;
 }
