@@ -1,15 +1,13 @@
-
-
 body{
 	font: 0.9em Tahoma, Verdana, Arial;
 	background-image: url("http://i.imgur.com/Jn2nwtn.jpg");
+	background-image: url("http://i.imgur.com/fkiBeIq.png");
 	/*background-image: url("http://i.imgur.com/I3cJGqG.jpg");*/
 	background-color: BurlyWood;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	/*background-color: #36dcaf;*/
-
 }
 
 header{
@@ -34,11 +32,36 @@ header{
 	color: maroon; /*#886955*/
 }
 
+#content{
+	padding-top: 75px;
+}
+
+#profilePics{
+
+}
+
+#coverPhotoContainer{
+	position: relative;
+	width: 100%;
+	min-width: 250px;
+}
+
+#coverPhoto{
+	width: 100%;
+}
+
+#profileAvatar{
+	position: absolute;
+	float: left;
+	padding: 160px 50px 50px 50px;
+    width: 100px;
+    height: 100px;
+}
+
 #twitterFeed{ 
 	margin-top: 15px;
 	width: 15%;
 	float: right;
-
 }
 
 #menu{
@@ -58,22 +81,23 @@ header{
 	border: solid #5c929c 2px;
 	padding: 15px;
 	text-align: center;
-
-
 }
 
 .liMenu{
 	display: inline-block;
 	padding: 12px;
-	
-
 }
 
 a{
 	font-size: 1.1em;
 	text-decoration: none;
 	color: #886955;
+}
 
+#animePlanet{
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 footer{
@@ -86,10 +110,29 @@ footer{
 	color: maroon;
 }
 
+#footerSounds{
+	position: absolute;
+	background-color: #caf1ff;
+	width: 100%;
+	max-height: 100px;
+	left: 0;
+	bottom: 0;
+	color: maroon;
+}
+
+#footerSecret{
+	position: absolute;
+	background-color: #caf1ff;
+	width: 100%;
+	max-height: 100px;
+	left: 0;
+	bottom: 0;
+	color: maroon;
+}
+
 #ulFooter{
 	list-style-type: none;
 	text-align: center;
-
 }
 
 .liFooter{
